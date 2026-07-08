@@ -255,53 +255,57 @@ http://localhost:5173
 ```
 ---
 
-# 📷 Screenshots
+# 📸 Screenshots
 
-### 🏠 Landing Page
+## Landing Page
 
 - Modern Hero Section
-- AI Inspired Design
-- Glassmorphism UI
----
+- Animated Background
+- Glassmorphism Cards
+- AI Trading UI!
+!![Landing Page](client/screenshots/image.png)
+!![Landing Page](client/screenshots/landing.png)
+!![Landing Page](client/screenshots/Landing1.png)
 
+## Register
+!![Register Page](client/screenshots/Register.png)
+Register with an email id
 
-### 🔐 Authentication
-- Register Page
-- Login Page
----
+## Login
+!![Register Page](client/screenshots/Login.png)
+Login with an existing email
 
-### 📊 Dashboard
-- Portfolio Overview
-- Market Statistics
+## Dashboard
+
+- Portfolio Cards
 - Watchlist
+- Market Overview
+- Profile Menu
+!![Register Page](client/screenshots/Dashboard.png)
+
+
+## Markets
+
+- Stock Cards
+- Live Prices
+- Stock Charts
+!![StockMarket Page](client/screenshots/StockMarket.png)
+!![StockChart page](client/screenshots/StockChart.png)
 ---
 
-### 📈 Stock Market
+# 🎯 Future Improvements
 
-- Stock Listing
-- Interactive Charts
-- Live Market View
--
-
-### 👤 Profile
-- User Profile Menu
-- Logout
-- Account Information
----
-
-# 🚀 Future Improvements
-
-- Live Stock Market API Integration
+- Live Stock API Integration
 - TradingView Charts
 - Buy & Sell Stocks
-- Portfolio Analytics
-- AI Stock Prediction
-- Email Notifications
-- Stock News Feed
 - Payment Integration
-- Mobile Application
-- Dark/Light Theme Toggle
-- Multi-language Support
+- Portfolio Analytics
+- Notifications
+- AI Price Prediction
+- Mobile App
+- News Feed
+- Real-time Market Updates
+
 ---
 
 # 🤝 Contributing
