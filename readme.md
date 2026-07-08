@@ -4,13 +4,19 @@ A modern **full-stack MERN Stock Trading Dashboard** with a professional fintech
 
 ---
 
-## 🚀 Live Demo
+# 📖 About the Project
 
-### Frontend
-Coming Soon
+TradeX is developed to help users monitor the stock market through an attractive and user-friendly dashboard. The application provides market insights, portfolio tracking, watchlists, and interactive stock charts in a modern fintech-inspired interface.
 
-### Backend API
-Coming Soon
+The project demonstrates:
+
+- Full-Stack Web Development
+- REST API Architecture
+- User Authentication
+- Protected Routes
+- Interactive Dashboard
+- Responsive UI Design
+- Modern Component-Based Architecture
 
 ---
 
@@ -93,6 +99,7 @@ Coming Soon
 - React Router DOM
 - Axios
 - CSS3
+- Javascript
 - Lucide React
 
 ## Backend
@@ -105,6 +112,28 @@ Coming Soon
 - bcryptjs
 - dotenv
 - CORS
+
+## Database
+
+- MongoDB Atlas
+- Mongoose
+
+---
+
+## Authentication
+
+- JSON Web Token (JWT)
+- bcryptjs
+---
+
+## Tools & Platforms
+
+- Git
+- GitHub
+- VS Code
+- npm
+- Vite
+- Postman
 
 ---
 
@@ -376,6 +405,11 @@ git push origin feature-name
 This project is developed for educational purposes and internship learning.
 
 ---
+ ## 👩‍💻 Author
+
+## Parnapalli Sabiya Kousar
+
+**B.Tech – Computer Science Engineering**
 
 ## ⭐ Support
 
