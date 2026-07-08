@@ -3,7 +3,6 @@
 A modern **full-stack MERN Stock Trading Dashboard** with a professional fintech-inspired UI. TradeX allows users to monitor stock prices, explore interactive charts, manage portfolios, and keep track of their favorite stocks through a secure and responsive web application.
 
 ---
-
 # 📖 About the Project
 
 TradeX is developed to help users monitor the stock market through an attractive and user-friendly dashboard. The application provides market insights, portfolio tracking, watchlists, and interactive stock charts in a modern fintech-inspired interface.
