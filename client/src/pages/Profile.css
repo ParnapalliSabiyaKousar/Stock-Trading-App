@@ -41,7 +41,7 @@ flex-direction:column;
 margin-top:15px;
 margin-bottom:8px;
 font-weight:bold;
-color:#444;
+color:#ece6e6;
 }
 
 .profile-info input,
@@ -61,7 +61,7 @@ resize:none;
 .save-btn{
 margin-top:25px;
 padding:14px;
-background:#2563eb;
+background:#e9ecf1;
 color:white;
 border:none;
 border-radius:8px;
