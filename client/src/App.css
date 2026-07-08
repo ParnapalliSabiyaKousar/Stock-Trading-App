@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+}
+
+/* CENTER LOGIN / REGISTER */
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN / REGISTER CARD */
+.card {
+  width: 340px;
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.2);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+/* INPUT FIELDS */
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #0f172a;
+  color: white;
+  border: 1px solid #334155;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* BUTTONS */
+button {
+  padding: 12px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+
+/* LINKS */
+.link {
+  color: #38bdf8;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* DASHBOARD / MARKET PAGE */
+.page {
+  padding: 30px;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+
+/* TITLE */
+h1 {
+  color: #38bdf8;
+}
+
+/* GRID CARDS */
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* DASHBOARD BOX */
+.box {
+  background: rgba(30, 41, 59, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 150px;
+  border: 1px solid #334155;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.1);
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.3);
+}
+
+/* STOCK CARD */
+.stock {
+  background: rgba(51, 65, 85, 0.6);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border-left: 4px solid #38bdf8;
+  transition: 0.3s;
+}
+
+.stock:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#f4f7fb;
+}
+
+.auth-card{
+width:400px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.auth-card h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+.auth-card input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.auth-card button{
+width:100%;
+padding:12px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+}
+
+.auth-card button:hover{
+background:#1d4ed8;
+}
+
+.error{
+color:red;
+text-align:center;
+margin-bottom:10px;
+}
+.success{
+color:green;
+text-align:center;
+margin-bottom:10px;
+font-weight:bold;
+}

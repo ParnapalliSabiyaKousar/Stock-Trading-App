@@ -1,0 +1,239 @@
+.admin-chart-page{
+
+    display:flex;
+    min-height:100vh;
+    background:#f4f7fc;
+
+}
+
+
+.admin-content{
+
+    margin-left:260px;
+    padding:30px;
+    width:100%;
+
+}
+
+
+.admin-content h1{
+
+    margin-bottom:25px;
+    color:#1e293b;
+
+}
+
+
+
+.add-stock{
+
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom:35px;
+
+}
+
+
+
+.add-stock h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+.add-stock input{
+
+    width:220px;
+    padding:12px;
+    margin:8px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+
+}
+
+
+
+.add-stock input:focus{
+
+    border-color:#2563eb;
+
+}
+
+
+
+.add-stock button{
+
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+
+}
+
+
+
+.add-stock button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+
+.stock-table{
+
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+.admin-stock-card{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f8fafc;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    border:1px solid #e2e8f0;
+
+}
+
+
+
+.admin-stock-card h3{
+
+    color:#2563eb;
+    margin-bottom:10px;
+
+}
+
+
+
+.admin-stock-card p{
+
+    margin:5px 0;
+
+}
+
+
+
+
+.admin-buttons{
+
+    display:flex;
+    gap:15px;
+
+}
+
+
+
+
+.edit{
+
+    background:#16a34a;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+
+
+.edit:hover{
+
+    background:#15803d;
+
+}
+
+
+
+
+.delete{
+
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+
+
+.delete:hover{
+
+    background:#b91c1c;
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+.admin-content{
+
+    margin-left:0;
+    padding:15px;
+
+}
+
+
+
+.add-stock input{
+
+    width:100%;
+    margin:8px 0;
+
+}
+
+
+
+.admin-stock-card{
+
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+
+}
+
+
+
+.admin-buttons{
+
+    width:100%;
+
+}
+
+
+
+.edit,
+.delete{
+
+    flex:1;
+
+}
+
+
+
+}
