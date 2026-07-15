@@ -323,6 +323,9 @@ Admin users can:
 
 ---
 
+## 📺 Video Demo
+https://drive.google.com/file/d/1dGtQuF1CIIjjzh4DK3pj07FIP314ipTa/view?usp=drive_link
+
 # 🎯 Future Enhancements
 
 - Live Stock API Integration
